@@ -10,34 +10,20 @@ import {
   TextField,
   Button,
   MenuItem,
-  Select,
   Grid,
   Fade,
   Container,
   Card,
   CardContent,
   Typography,
-  AppBar,
 } from "@material-ui/core";
-import { styled } from "@material-ui/core/styles";
-
-const OptionsGrid = styled(Grid)({
-  display: "flex",
-  justifyContent: "space-between",
-  marginBotton: "30px",
-});
-const SelectCategories = styled(Select)({
-  justifySelf: "flex-start",
-  width: "25%",
-})
-const SearchGrid = styled(Grid)({
-  justifySelf: "flex-end",
-  alignItems: "baseline",
-})
-const CenteredText = styled(Typography)({
-  display: "flex",
-  justifyContent: "center"
-})
+import { 
+  OptionsGrid, 
+  CenteredText, 
+  SearchGrid,
+  SelectCategories, 
+  ChuckBar
+} from "./styles";
 
 export const Home: React.FC = () => {
   const { categories } = useContext(CategoriesContext);
@@ -69,11 +55,11 @@ export const Home: React.FC = () => {
     <JokeContext.Provider value={{ selectedCategory: selectedCategory }}>
       <Fade in={true}>
         <div>
-          <AppBar position="relative">
+          <ChuckBar position="relative">
             <Typography variant="h3" noWrap>
               Chuck Norris Jokes
             </Typography>
-          </AppBar>
+          </ChuckBar>
           
           <OptionsGrid>
             <SelectCategories value={selectedCategory} onChange={handleChange} placeholder="Categories">
