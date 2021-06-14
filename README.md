@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Chuck Norris React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This is a React and Typescript Front-end project
+
+## Installation
+1. Clone Project
+git clone https://github.com/OkayAobakwe/chuck-norris-react
+
+2. cd into folder
+cd chuck-norris-react
+
+3. Download dependencies
+yarn
+4. Happy Hacking
 
 ## Available Scripts
 
