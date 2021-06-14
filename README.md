@@ -5,16 +5,25 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This is a React and Typescript Front-end project
 
 ## Installation
-1. Clone Project
+1. Clone Project \
+```
 git clone https://github.com/OkayAobakwe/chuck-norris-react
-
-2. cd into folder
+```
+2. cd into folder \
+```
 cd chuck-norris-react
-
-3. Download dependencies
+```
+3. Download dependencies \
+```
 yarn
+```
 4. Happy Hacking
 
+
+## Link to site
+
+[https://react-chuck-norris.netlify.app/]
+(https://react-chuck-norris.netlify.app/)
 ## Available Scripts
 
 In the project directory, you can run:
